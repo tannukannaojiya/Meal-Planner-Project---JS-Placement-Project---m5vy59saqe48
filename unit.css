@@ -1,0 +1,68 @@
+.flex{
+    display: flex;
+}
+/* .food_image{
+    height: 300px;
+    width: 200px;
+    background: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbGlmZW9mcGl4MDAwMDEtaW1hZ2VfMS1renhsdXhhei5qcGc.jpg?s=gayymr-MoZkhATCpk4H6JF11q8zWqNV8pVstYoefMiE) no-repeat;
+    background-size:cover;
+    margin: 1rem;
+} */
+.login_input{
+    padding: .5rem;
+    border-color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-left: 3.5rem;
+    border-radius: 15px;
+    box-shadow: 1px 1px 25px 10px #b2cedb;
+    border: none;
+}
+.btn{
+ height: 2rem;
+ width: 150px;
+ font-size: 1.2rem;
+ font-weight: 500;
+ margin-bottom: 1rem;
+ border-radius: 15px;
+ position: relative;
+ left: 25%;
+ color: #ffffff;
+}
+.pd{
+    padding: .5rem;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 15px 5px #ffffff;
+    border: none;
+    border-radius: 11px;
+}
+.bg-blue{
+    background: linear-gradient(#892ae2,#3c01f3);
+
+}
+label span{
+    color: red;
+}
+.rs{
+    justify-content: space-around;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.close{
+    position: relative;
+    top: -10px;
+    right: -310px;
+    font-size: 1.8rem;
+    color: #111;
+    width: 20px;
+    height: 20px;
+    
+}
+.close:hover{
+  color: #ffffff;  
+  
+}
+.max_h{
+height: 530px;
+}

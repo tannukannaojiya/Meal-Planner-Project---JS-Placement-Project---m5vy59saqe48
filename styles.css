@@ -1,1 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(#944831, rgb(54, 18, 18));
+    background-blend-mode: multiply;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(#f4511e, #111), url(https://images.unsplash.com/photo-1543353071-873f17a7a088?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhlYWx0aHklMjBmb29kfGVufDB8fDB8fA%3D%3D&w=1000&q=80)repeat-x;
+    background-size: cover;
+    background-blend-mode: multiply;
+   
+}
+/* For Navigation  */
+.header{
+    margin-bottom: 2rem;
+}
+.nav_bar{
+    position: fixed;
+    top: 0%;
+    z-index: 999;
+    width: 100%;
+    height: 55px;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    background-color: #111;
+    
+}
+.logo_sec{
+    align-items: center;
+    color: #f4511e;
+}
+.logo{
+    color: #f4511e;
+    height: 3rem;
+    width: 3rem;
+}
+.web_name{
+    font-family: fantasy;
+    font-weight: 800;
+    box-shadow: 2px 1px 1px 1px;
+    padding-left: .5rem;
+}
+.main{
+    margin-top: 2rem;
+    position: relative;
+    top: 55px;
+}
+.user_form{
+    width: 100%;
+    margin-top: 2.5rem;
+}
+.form_rows{
+    width: 100%;
+    justify-content: space-around;
+    margin: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.form_row{
+    width: 100%;
+    justify-content: space-around;
+    margin: 2rem;
+    padding: 1rem;
+    
+}
+.inputfield{
+    width: 200px;
+    height: 2rem;
+    padding: .4rem;
+    /* border: 3px solid #fff; */
+    border-radius: 11px;
+    background-color: #111;
+    opacity: .6;
+    border-color: #fff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: fantasy;
+    text-align: center;
+}
+#submit_btn{
+    background:linear-gradient(rgb(96, 112, 60),rgb(23, 26, 23));
+    background-blend-mode: lighten; 
+}
+.inputfield:hover{
+    opacity: .6;
+    color: black;
+    border-color: #111; 
+    cursor: pointer;
+}
+.inputfield:focus{
+    color: #fff;
+}
+#submit_btn:hover{
+    /* background-color: #f4511e; */
+    border-color: #fff;
+    background:linear-gradient(rgb(19, 156, 127),rgb(82, 6, 6));
+    background-blend-mode: lighten;
+    color: #ffffff;
+}
+.welcome{
+    color: rgb(17, 2, 2);
+}
+.welcome h1{
+    font-family: fantasy;
+    letter-spacing: .05rem;
+    font-weight: 400;
+}
+.welcome h2{
+    font-family: cursive;
+}
+.welcome{
+    display:block;
+}
+.main_container{
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 2rem;
+    
+}
+/* .primary{
+width: 550px;
+min-height: 500px;
+background: url("Chef-PNG.png") no-repeat;
+background-size: cover;
+} */
+.display{
+    width: 60%;
+    /* margin: 1rem; */
+}
 
+
+/* card section */
+
+.meal_plan{
+   justify-content: space-around;
+    
+}
+.card_body{
+    
+    height: 350px;
+    width: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-right: ; */
+    text-align: center;
+    border-radius: 11px;
+    box-shadow: 5px 1px 5px 5px rgb(52, 12, 12);
+}
+.card__action{
+    position: relative;
+    top: 72%;
+    width: 100%;
+    background-color: #fff;
+    opacity: .6;
+    padding: .5rem;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+   
+}
+.heading{
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .01rem;
+    font-family: fantasy;
+    color: rgb(11, 11, 11);
+}
+.recipies_btn{
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 11px;
+    border: 2px solid black;
+    padding: .8rem;
+}
+.recipies_btn:hover{
+    /* background-color: green; */
+    background:linear-gradient(rgb(0, 255, 0),rgb(0, 0, 255));
+    background-blend-mode: lighten;
+    color: #fff;
+    cursor: pointer;
+}
+.recipies_sec{
+    margin-top: 2rem;
+}
+/* Teble section */
+table{
+    background: linear-gradient(rgb(45, 39, 99),#111);
+    opacity: .6;
+    color: #fff;
+    background-blend-mode: multiply;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    padding: .5rem;
+}
+th{
+    text-transform: uppercase;
+    padding: .5rem;
+    background:linear-gradient(rgb(113, 146, 36),rgb(122, 45, 45));
+    background-blend-mode: lighten;
+}
